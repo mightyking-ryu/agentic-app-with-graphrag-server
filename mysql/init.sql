@@ -1,7 +1,7 @@
 CREATE DATABASE IF NOT EXISTS agentic_app;
 
 DROP USER IF EXISTS 'graphrag'@'%';
-CREATE USER 'graphrag'@'%' IDENTIFIED WITH mysql_native_password BY 'nvidia';
+CREATE USER 'graphrag'@'%' IDENTIFIED BY 'nvidia';
 GRANT ALL PRIVILEGES ON agentic_app.* TO 'graphrag'@'%';
 FLUSH PRIVILEGES;
 
