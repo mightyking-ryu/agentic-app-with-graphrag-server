@@ -10,7 +10,7 @@ USE agentic_app;
 CREATE TABLE IF NOT EXISTS survey (
     id INT AUTO_INCREMENT PRIMARY KEY,
     user_id CHAR(36) NOT NULL,
-    result JSON NOT NULL
+    result TEXT NOT NULL
 );
 
 CREATE TABLE IF NOT EXISTS question_queue (
