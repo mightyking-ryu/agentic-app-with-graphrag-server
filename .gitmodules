@@ -1,0 +1,3 @@
+[submodule "apache/www/api"]
+	path = apache/www/api
+	url = git@github.com:mightyking-ryu/agentic-app-with-graphrag-api.git
